@@ -385,7 +385,7 @@ def main():
     # Tabs
     # -----------------------------------------------------------------------
     tab_live, tab_trends, tab_upload = st.tabs([
-        "📊 Live Analysis", "📈 Trend Monitoring", "📁 Upload & Analyze"
+        "📊 Live Demo", "📈 Trend Monitoring", "📁 Upload & Analyze"
     ])
 
     # ===========================
