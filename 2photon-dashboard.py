@@ -407,8 +407,8 @@ def main():
         st.subheader("Historical QC Trends")
 
         # Load or generate history
-        # history_file = "\\\\allen\\aind\\scratch\\ophys\\SLAP2\\weekly alignment\\history.csv"  #this is the slap2 alignment history file
-        history_file = ""  #use this if you want synthetic data
+        history_file = "\\\\allen\\aind\\scratch\\ophys\\SLAP2\\weekly alignment\\history.csv"  #this is the slap2 alignment history file
+        # history_file = ""  #use this if you want synthetic data
         if os.path.exists(history_file):
             history = pd.read_csv(history_file)
         else:
